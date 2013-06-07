@@ -1,0 +1,21 @@
+{
+  "name": "wigle-api",
+  "version": "0.0.1",
+  "description": "Wigle.net API for Node.js",
+  "keywords": [ "wigle", "wigle.net", "wigle-api" ],
+  "author": "Nuno Santos <nunofvsantos@gmail.com> (http://nunosantos.org)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nfvs/wigle-api"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "request": ">= 2.21.0",
+    "jsdom": ">= 0.6.5",
+    "jquery": "1.8.3"
+  },
+  "devDependencies": {
+    "mocha": ""
+  }
+}
