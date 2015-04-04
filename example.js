@@ -1,8 +1,8 @@
 var wigle = require('./index.js');
 
 var client = wigle.createClient(
-    'brannon',
-    'wiglepasswosrd'
+    'user',
+    'password'
 );
 
 var parameters = {

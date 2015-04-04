@@ -3,6 +3,9 @@
 
 An easy way to access [Wigle.net](http://wigle.net) with [Node.js](http://nodejs.org). Requires a user account.
 
+- Original version (C) 2013 Nuno Santos
+- Fork that uses older Wigle.net API (C) 2015 Brannon Dorsey
+
 
 ## Installation
 
