@@ -11,9 +11,7 @@
   },
   "main": "./index.js",
   "dependencies": {
-    "request": ">= 2.21.0",
-    "jsdom": ">= 0.6.5",
-    "jquery": "1.8.3"
+    "request": ">= 2.21.0"
   },
   "devDependencies": {
     "mocha": ""
