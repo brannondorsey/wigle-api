@@ -1,10 +1,15 @@
 var wigle = require('./index.js');
 
 var client = wigle.createClient(
-    'user',
+    'username',
     'password',
-    function(){
-        // optional callback that fires only once client has successfully logged in
+    function(err){
+        // optional callback that fires only once the login request has returned
+        if (err) {
+            // login failed
+        } else {
+            // login succeeded
+        }
     }
 );
 
