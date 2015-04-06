@@ -24,7 +24,9 @@ var parameters = {
 };
 
 client.query(parameters, function(err, result) {
-	  if (err) throw err;
+	  
+      if (err) throw err;
+
 	  console.log('Timestamp:', result.timestamp);
 	  console.log('Number of networks found:', result.networks.length);
 	  // console.log('Networks:', result.networks);
