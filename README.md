@@ -5,6 +5,7 @@ An easy way to access [Wigle.net](http://wigle.net) with [Node.js](http://nodejs
 
 - Original version (C) 2013 Nuno Santos
 - Fork that uses older Wigle.net API (C) 2015 Brannon Dorsey
+- Forforked to update Wigle API to version 2 (C) 2017 Ibirisol Fontes
 
 
 ## Installation
@@ -16,8 +17,7 @@ TODO: npm/git
 ```javascript
 var wigle = require('wigle-api');
 var client = wigle.createClient(
-    'yourAccessLogin',
-    'yourAccessPassword'
+    'yourAccessToken'
 );
 
 client.query({
@@ -33,9 +33,9 @@ client.query({
 
 ## API reference
 
-### wigle.createClient(username, password)
+### wigle.createClient(api_token)
 
-Creates a new Client instance, and logs in to Wigle.net using the given credentials. The credentials are transmitted using an `https` connection.
+Creates a new Client instance, and logs in to Wigle.net using the given credentials (token). The credentials are transmitted using an `https` connection.
 
 ### client.query(parameters, callback)
 
