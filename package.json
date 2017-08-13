@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Wigle.net API for Node.js",
   "keywords": [ "wigle", "wigle.net", "wigle-api" ],
-  "author": "Nuno Santos <nunofvsantos@gmail.com> (http://nunosantos.org)",
+  "author": [ "Nuno Santos <nunofvsantos@gmail.com> (http://nunosantos.org)", "Ibirisol Fontes <ibirisol@gmail.com>" (https://github.com/ibirisol) ],
   "license": "MIT",
   "repository": {
     "type": "git",
